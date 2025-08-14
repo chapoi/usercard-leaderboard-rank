@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: This component adds the leaderboard rank to the usercard
+    settings:
+      example_setting: A description of a setting.
