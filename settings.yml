@@ -1,2 +1,18 @@
-example_setting:
-  default: true
+leaderboard_id:
+  default: 1
+  type: integer
+  description: "The ID of the leaderboard to display"
+leaderboard_timeframe:
+  default: "all_time"
+  type: enum
+  choices:
+    - daily
+    - weekly
+    - monthly
+    - yearly
+    - all_time
+  description: "Select the timeframe for the leaderboard"
+leaderboard_rank_cutoff:
+  default: 0
+  type: integer
+  description: "The number of top users who get their rank displayed on the user card. Leave at 0 to include all."
